@@ -1,4 +1,3 @@
-# Write the analysis report
 report = """
 # Neural Network Model Analysis: Alphabet Soup Charity
 
@@ -42,8 +41,4 @@ The final model provides a reasonable level of accuracy, though additional optim
 Given the structure and characteristics of the dataset, a Random Forest classifier may provide better results due to its ability to handle categorical features and outliers effectively.
 """
 
-# Save the report to a text file
-with open("report.md", "w") as file:
-    file.write(report)
 
-print("Report saved as 'report.md'")

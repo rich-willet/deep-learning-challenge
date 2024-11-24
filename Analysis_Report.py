@@ -1,3 +1,5 @@
+# Write the analysis report
+report = """
 # Neural Network Model Analysis: Alphabet Soup Charity
 
 ## Overview of the Analysis
@@ -38,4 +40,10 @@ The final model provides a reasonable level of accuracy, though additional optim
 
 ## Recommendation
 Given the structure and characteristics of the dataset, a Random Forest classifier may provide better results due to its ability to handle categorical features and outliers effectively.
-# deep-learning-challenge
+"""
+
+# Save the report to a text file
+with open("report.md", "w") as file:
+    file.write(report)
+
+print("Report saved as 'report.md'")

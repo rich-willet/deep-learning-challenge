@@ -22,14 +22,14 @@ The purpose of this analysis is to build a binary classifier to predict whether 
   - `EIN` and `NAME`, as these are identifiers and not relevant for predictions.
 
 ### Compiling, Training, and Evaluating the Model
-- **Model Architecture**:
+- Model Architecture**:
   - **Input Layer**: Matches the number of features after preprocessing.
   - **First Hidden Layer**: 80 neurons with ReLU activation.
   - **Second Hidden Layer**: 30 neurons with ReLU activation.
   - **Output Layer**: 1 neuron with a sigmoid activation function for binary classification.
-- **Performance**:
-  - The model achieved an accuracy of approximately X% (replace with actual performance from the notebook).
-- **Steps to Improve Performance**:
+- Performance:
+  - The model achieved an accuracy of approximately 72% (268/268 - 0s - 408us/step - accuracy: 0.7249 - loss: 0.5547)
+- Steps to Improve Performance:
   - Adjusted the number of hidden nodes and layers.
   - Tried different activation functions (e.g., ReLU, sigmoid).
   - Tuned the number of epochs for training.
